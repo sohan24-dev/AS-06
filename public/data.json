@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "img": "https://logo.clearbit.com/canva.com",
+    "name": "Canva Pro",
+    "description": "A powerful online design tool for creating social media graphics, presentations, and branding materials.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ million premium stock assets",
+      "Magic resize & brand kit",
+      "Background remover",
+      "Export in multiple formats"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": 2,
+    "img": "https://logo.clearbit.com/adobe.com",
+    "name": "Adobe Creative Cloud",
+    "description": "All-in-one creative suite including Photoshop, Illustrator, and Premiere Pro.",
+    "price": 54.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "20+ professional apps",
+      "Cloud storage",
+      "Advanced editing tools",
+      "Cross-device sync"
+    ],
+    "icon": "🖌️"
+  },
+  {
+    "id": 3,
+    "img": "https://logo.clearbit.com/notion.so",
+    "name": "Notion AI",
+    "description": "All-in-one workspace for notes, docs, tasks, and AI-powered writing.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "AI writing assistant",
+      "Task & project management",
+      "Custom databases",
+      "Team collaboration"
+    ],
+    "icon": "🧠"
+  },
+  {
+    "id": 4,
+    "img": "https://logo.clearbit.com/semrush.com",
+    "name": "SEMrush",
+    "description": "SEO and digital marketing tool for keyword research and competitor analysis.",
+    "price": 129.95,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "Keyword research tools",
+      "Site audit",
+      "Competitor analysis",
+      "Backlink tracking"
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": 5,
+    "img": "https://logo.clearbit.com/slack.com",
+    "name": "Slack",
+    "description": "Team communication platform with channels, integrations, and collaboration tools.",
+    "price": 8.75,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Real-time messaging",
+      "File sharing",
+      "App integrations",
+      "Voice & video calls"
+    ],
+    "icon": "💬"
+  },
+  {
+    "id": 6,
+    "img": "https://logo.clearbit.com/clickup.com",
+    "name": "ClickUp",
+    "description": "Project management tool for tasks, docs, goals, and team collaboration.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Task & workflow management",
+      "Time tracking",
+      "Docs & goals",
+      "Automation"
+    ],
+    "icon": "✅"
+  },
+  {
+    "id": 7,
+    "img": "https://logo.clearbit.com/zendesk.com",
+    "name": "Zendesk",
+    "description": "Customer support and help desk solution for businesses.",
+    "price": 55,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "Multi-channel support",
+      "AI chatbots",
+      "Ticket system",
+      "Analytics & reporting"
+    ],
+    "icon": "🎧"
+  },
+  {
+    "id": 8,
+    "img": "https://logo.clearbit.com/calendly.com",
+    "name": "Calendly",
+    "description": "Scheduling automation tool to book meetings easily.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Automated scheduling",
+      "Calendar integrations",
+      "Custom booking links",
+      "Team scheduling"
+    ],
+    "icon": "📅"
+  },
+  {
+    "id": 9,
+    "img": "https://logo.clearbit.com/document360.com",
+    "name": "Document360",
+    "description": "Knowledge base platform for documentation and help centers.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Knowledge base builder",
+      "Markdown editor",
+      "Version control",
+      "Search optimization"
+    ],
+    "icon": "📚"
+  },
+  {
+    "id": 10,
+    "img": "https://logo.clearbit.com/wix.com",
+    "name": "Wix Premium",
+    "description": "Website builder with drag-and-drop tools and hosting.",
+    "price": 17,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Drag-and-drop builder",
+      "Free templates",
+      "SEO tools",
+      "eCommerce support"
+    ],
+    "icon": "🌐"
+  }
+]
