@@ -38,9 +38,9 @@ const AllCard = ({ allCard, setSelectedCart, selectedCat }) => {
                     </div>
 
                     {features.map((featuresList, idx) =>
-                        <ul className="flex gap-2 text-xs">
+                        <ul className="flex gap-2">
                             <li key={idx}
-                                className='flex gap-2 text-[#627382]'>
+                                className='flex gap-2 text-[#627382] items-center'>
                                 <FaCheck />
                                 <span>{featuresList}</span>
                             </li>

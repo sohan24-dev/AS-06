@@ -3,7 +3,7 @@
     "title": "Starter",
     "price": 9,
     "time": "month",
-    "description": "Perfect for beginners who want to get started with essential tools and basic features.",
+    "description": "Perfect for getting started",
     "type": "",
     "button": "Get Started Free",
     "features": [
@@ -19,8 +19,8 @@
     "title": "Pro",
     "price": 29,
     "time": "month",
-    "description": "Ideal for professionals who need advanced features and better performance for growing projects.",
-    "type": "most popular",
+    "description": "Best for professionals",
+    "type": "Most popular",
     "button": "Contact Sales",
     "features": [
       "Everything in Starter",
@@ -35,7 +35,7 @@
     "title": "Enterprise",
     "price": 99,
     "time": "month",
-    "description": "Best for large teams and businesses that require full customization, security, and dedicated support.",
+    "description": "For teams and businesses",
     "type": "",
     "button": "Start Pro Trial",
     "features": [

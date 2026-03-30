@@ -5,6 +5,7 @@ import Hearder from './component/Hearder/Hearder'
 import Main from './component/Main/Main'
 import Navber from './component/Navber/Navber'
 import PricingCard from './component/PricingCard/PricingCard'
+import Count from './component/Count/Count'
 
 
 
@@ -26,6 +27,7 @@ function App() {
     <>
       <Navber selectedCat={selectedCat}></Navber>
       <Hearder></Hearder>
+      <Count></Count>
       <Suspense fallback="sohan"><Main toolData ={toolData} selectedCat={selectedCat} setSelectedCart={setSelectedCart}/></Suspense>
       <Suspense fallback="card"><PricingCard pricingData={pricingData}></PricingCard></Suspense>
     </>
