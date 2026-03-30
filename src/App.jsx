@@ -7,6 +7,7 @@ import Navber from './component/Navber/Navber'
 import PricingCard from './component/PricingCard/PricingCard'
 import Count from './component/Count/Count'
 import Started from './component/Started/Started'
+import Footer from './component/Footer/Footer'
 
 
 
@@ -38,6 +39,7 @@ function App() {
       <Suspense fallback="sohan"><Main toolData ={toolData} selectedCat={selectedCat} setSelectedCart={setSelectedCart} startedData={startedData}/></Suspense>
       
       <Suspense fallback="card"><PricingCard pricingData={pricingData}></PricingCard></Suspense>
+      <Footer></Footer>
     </>
   )
 }

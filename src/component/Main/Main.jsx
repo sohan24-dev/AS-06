@@ -16,13 +16,13 @@ const Main = ({ toolData ,setSelectedCart,selectedCat,startedData}) => {
             <div className='flex gap-2 justify-center'>
                 <button
                 onClick={() =>setProduct('product')}
-                 className={`btn text-[#25065D] py-2 px-3 rounded-full border border-[#4F39F6] ${product === 'product' 
+                 className={`btn text-[#25065D] py-2 px-3 rounded-full border border-[#4F39F6] w-33 ${product === 'product' 
                     ? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white'
                     : 'bg-white'
                  }`}>Products </button>
                 <button
                 onClick={() =>setProduct('Cart')}
-                 className={`btn text-[#25065D] py-2 px-3 rounded-full border border-[#4F39F6] ${product === 'Cart' 
+                 className={`btn text-[#25065D] py-2 px-3 w-33 rounded-full border border-[#4F39F6] ${product === 'Cart' 
                     ? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white'
                     : 'bg-white'
                  }`}>Cart({selectedCat.length})</button>
