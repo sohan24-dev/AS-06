@@ -1,172 +1,98 @@
 [
   {
     "id": 1,
-    "img": "https://logo.clearbit.com/canva.com",
-    "name": "Canva Pro",
-    "description": "A powerful online design tool for creating social media graphics, presentations, and branding materials.",
-    "price": 12.99,
+    "img": "https://i.ibb.co.com/Z6LsVmWR/writing-2327400-1.png",
+    "name": "AI Writing Pro",
+    "description": "AI-powered writing assistant to create articles, emails, and marketing copy instantly.",
+    "price": 15,
     "period": "monthly",
-    "tag": "popular",
+    "tagType": "new",
+    "features": [
+      "AI content generation",
+      "Grammar & style check",
+      "Plagiarism detection",
+      "Multiple language support"
+    ],
+    "icon": "📝"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co.com/m58YjbTz/design-tool.png",
+    "name": "Design Templates Pack",
+    "description": "A comprehensive pack of premium design templates for social media, presentations, and branding.",
+    "price": 29,
+    "period": "one-time",
     "tagType": "popular",
     "features": [
-      "100+ million premium stock assets",
-      "Magic resize & brand kit",
-      "Background remover",
-      "Export in multiple formats"
+      "500+ customizable templates",
+      "Compatible with Canva & Photoshop",
+      "High-resolution graphics",
+      "Ready-to-use icons & fonts"
     ],
     "icon": "🎨"
   },
   {
-    "id": 2,
-    "img": "https://logo.clearbit.com/adobe.com",
-    "name": "Adobe Creative Cloud",
-    "description": "All-in-one creative suite including Photoshop, Illustrator, and Premiere Pro.",
-    "price": 54.99,
+    "id": 3,
+    "img": "https://i.ibb.co.com/zHnWd61V/Group.png",
+    "name": "Premium Stock Assets",
+    "description": "Access to high-quality stock photos, videos, and vectors for creative projects.",
+    "price": 49,
     "period": "monthly",
-    "tag": "best seller",
     "tagType": "best",
     "features": [
-      "20+ professional apps",
-      "Cloud storage",
-      "Advanced editing tools",
-      "Cross-device sync"
+      "50,000+ stock images & videos",
+      "Royalty-free content",
+      "Search & filter tools",
+      "Commercial use license"
     ],
-    "icon": "🖌️"
-  },
-  {
-    "id": 3,
-    "img": "https://logo.clearbit.com/notion.so",
-    "name": "Notion AI",
-    "description": "All-in-one workspace for notes, docs, tasks, and AI-powered writing.",
-    "price": 10,
-    "period": "monthly",
-    "tag": "new",
-    "tagType": "new",
-    "features": [
-      "AI writing assistant",
-      "Task & project management",
-      "Custom databases",
-      "Team collaboration"
-    ],
-    "icon": "🧠"
+    "icon": "📸"
   },
   {
     "id": 4,
-    "img": "https://logo.clearbit.com/semrush.com",
-    "name": "SEMrush",
-    "description": "SEO and digital marketing tool for keyword research and competitor analysis.",
-    "price": 129.95,
+    "img": "https://i.ibb.co.com/FLsP66sp/operation.png",
+    "name": "Automation Toolkit",
+    "description": "Powerful automation software to streamline workflows, emails, and repetitive tasks.",
+    "price": 39,
     "period": "monthly",
-    "tag": "best seller",
-    "tagType": "best",
+    "tagType": "popular",
     "features": [
-      "Keyword research tools",
-      "Site audit",
-      "Competitor analysis",
-      "Backlink tracking"
+      "Workflow automation",
+      "Email & task automation",
+      "Integration with 100+ apps",
+      "Analytics & reporting"
     ],
-    "icon": "📊"
+    "icon": "🤖"
   },
   {
     "id": 5,
-    "img": "https://logo.clearbit.com/slack.com",
-    "name": "Slack",
-    "description": "Team communication platform with channels, integrations, and collaboration tools.",
-    "price": 8.75,
-    "period": "monthly",
-    "tag": "popular",
-    "tagType": "popular",
+    "img": "https://i.ibb.co.com/0R9LFZVp/portfolio.png",
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters with customizable templates and ATS optimization.",
+    "price": 19,
+    "period": "one-time",
+    "tagType": "new",
     "features": [
-      "Real-time messaging",
-      "File sharing",
-      "App integrations",
-      "Voice & video calls"
+      "100+ resume templates",
+      "ATS-friendly formatting",
+      "Cover letter builder",
+      "Export to PDF & Word"
     ],
-    "icon": "💬"
+    "icon": "📄"
   },
   {
     "id": 6,
-    "img": "https://logo.clearbit.com/clickup.com",
-    "name": "ClickUp",
-    "description": "Project management tool for tasks, docs, goals, and team collaboration.",
-    "price": 9,
+    "img": "https://i.ibb.co.com/FT8zDpw/social-media.png",
+    "name": "Social Media Content Kit",
+    "description": "Complete content kit for social media managers with graphics, captions, and posting schedules.",
+    "price": 25,
     "period": "monthly",
-    "tag": "popular",
-    "tagType": "popular",
-    "features": [
-      "Task & workflow management",
-      "Time tracking",
-      "Docs & goals",
-      "Automation"
-    ],
-    "icon": "✅"
-  },
-  {
-    "id": 7,
-    "img": "https://logo.clearbit.com/zendesk.com",
-    "name": "Zendesk",
-    "description": "Customer support and help desk solution for businesses.",
-    "price": 55,
-    "period": "monthly",
-    "tag": "best seller",
     "tagType": "best",
     "features": [
-      "Multi-channel support",
-      "AI chatbots",
-      "Ticket system",
-      "Analytics & reporting"
+      "Ready-to-post graphics",
+      "Engaging captions & hashtags",
+      "Content calendar templates",
+      "Analytics tracking tips"
     ],
-    "icon": "🎧"
-  },
-  {
-    "id": 8,
-    "img": "https://logo.clearbit.com/calendly.com",
-    "name": "Calendly",
-    "description": "Scheduling automation tool to book meetings easily.",
-    "price": 10,
-    "period": "monthly",
-    "tag": "new",
-    "tagType": "new",
-    "features": [
-      "Automated scheduling",
-      "Calendar integrations",
-      "Custom booking links",
-      "Team scheduling"
-    ],
-    "icon": "📅"
-  },
-  {
-    "id": 9,
-    "img": "https://logo.clearbit.com/document360.com",
-    "name": "Document360",
-    "description": "Knowledge base platform for documentation and help centers.",
-    "price": 49,
-    "period": "monthly",
-    "tag": "popular",
-    "tagType": "popular",
-    "features": [
-      "Knowledge base builder",
-      "Markdown editor",
-      "Version control",
-      "Search optimization"
-    ],
-    "icon": "📚"
-  },
-  {
-    "id": 10,
-    "img": "https://logo.clearbit.com/wix.com",
-    "name": "Wix Premium",
-    "description": "Website builder with drag-and-drop tools and hosting.",
-    "price": 17,
-    "period": "monthly",
-    "tag": "popular",
-    "tagType": "popular",
-    "features": [
-      "Drag-and-drop builder",
-      "Free templates",
-      "SEO tools",
-      "eCommerce support"
-    ],
-    "icon": "🌐"
+    "icon": "📱"
   }
 ]

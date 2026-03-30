@@ -20,7 +20,7 @@ const Navber = () => {
                             <li><a>FAQ</a></li>
                         </ul>
                     </div>
-                    <h1 class="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent text-2xl font-bold">
+                    <h1 className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent text-2xl font-bold">
                         DigiTools
                     </h1>
                 </div>
