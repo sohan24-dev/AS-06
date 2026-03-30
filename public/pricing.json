@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Starter",
+    "price": 9,
+    "time": "month",
+    "description": "Perfect for beginners who want to get started with essential tools and basic features.",
+    "type": "",
+    "button": "Get Started Free",
+    "features": [
+      "Basic access to all tools",
+      "5 projects included",
+      "Limited templates",
+      "Email support",
+      "Basic analytics",
+      "Community access"
+    ]
+  },
+  {
+    "title": "Pro",
+    "price": 29,
+    "time": "month",
+    "description": "Ideal for professionals who need advanced features and better performance for growing projects.",
+    "type": "most popular",
+    "button": "Contact Sales",
+    "features": [
+      "Everything in Starter",
+      "Unlimited projects",
+      "Premium templates",
+      "Priority email support",
+      "Advanced analytics",
+      "Team collaboration"
+    ]
+  },
+  {
+    "title": "Enterprise",
+    "price": 99,
+    "time": "month",
+    "description": "Best for large teams and businesses that require full customization, security, and dedicated support.",
+    "type": "",
+    "button": "Start Pro Trial",
+    "features": [
+      "Everything in Pro",
+      "Custom solutions",
+      "Dedicated account manager",
+      "24/7 priority support",
+      "Advanced security features",
+      "API & integrations"
+    ]
+  }
+]

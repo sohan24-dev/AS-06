@@ -5,9 +5,16 @@ const AllCard = ({ allCard, setSelectedCart, selectedCat }) => {
     const { name, img, tagType, period, price, description, features } = allCard
     const [selected, setSelected] = useState(false)
     const handClick = () => {
+        const findCart = selectedCat.find( cartfind => cartfind.name === allCard.name) 
+        if(findCart){
+            toast.warning(`${name} already added`)
+            return;
+        }
         toast.success(`Buy ${name}`)
         setSelected(true)
+        
         setSelectedCart([...selectedCat, allCard])
+        
     }
     return (
         <div className='flex items-center'>
@@ -42,8 +49,10 @@ const AllCard = ({ allCard, setSelectedCart, selectedCat }) => {
 
                     <div className="mt-6">
                         <button
-                            onClick={() => handClick()}
-                            className="btn btn-primary btn-block">{selected ? 'Buy already' : 'Buy Now'} </button>
+                            onClick={() => handClick(allCard)}
+                            className="btn btn-primary btn-block"
+                            disabled={selected}>
+                            {selected ? 'Buy already' : 'Buy Now'} </button>
                     </div>
                 </div>
             </div>
