@@ -3,9 +3,11 @@ import SinglePricingCard from './SinglePricingCard';
 
 const PricingCard = ({ pricingData }) => {
     const PricingAllData = use(pricingData)
-    console.log(PricingAllData);
+    // console.log(PricingAllData);
     return (
-        <div className='my-8'>
+        <div className='my-8 space-y-5'>
+            <h2 className='font-bold text-4xl md:text-5xl text-center'>Simple, Transparent Pricing</h2>
+            <p className='text-center text-[#627382] pb-4'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             <div className='container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-4 my-4'>
                 {PricingAllData.map((data, idx) => <SinglePricingCard key={idx} data={data}></SinglePricingCard>)}
             </div>

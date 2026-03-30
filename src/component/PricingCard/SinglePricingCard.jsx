@@ -2,7 +2,7 @@ import React from 'react';
 import { FaCheck } from 'react-icons/fa6';
 
 const SinglePricingCard = ({ data }) => {
-    console.log(data);
+    // console.log(data);
     const { title, price, description, type, button, features ,time} = data
     return (
         <div className={`relative py-6 rounded-2xl  px-5 space-y-2 ${type === 'Most popular' ? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white' : 'bg-[#F2F2F2] text-[#627382]'}`}>
@@ -20,8 +20,9 @@ const SinglePricingCard = ({ data }) => {
             )}
 
             {features.map((featuresList, idx) =>
-                <ul className={`flex gap-2`}>
-                    <li key={idx}
+                <ul
+                 key={idx} className={`flex gap-2`}>
+                    <li
                         className='flex gap-2 items-center'>
                         <FaCheck />
                         <span>{featuresList}</span>

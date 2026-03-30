@@ -6,6 +6,7 @@ import Main from './component/Main/Main'
 import Navber from './component/Navber/Navber'
 import PricingCard from './component/PricingCard/PricingCard'
 import Count from './component/Count/Count'
+import Started from './component/Started/Started'
 
 
 
@@ -18,6 +19,12 @@ const fetchPricing = async() =>{
   const res = await fetch('/pricing.json')
   return res.json()
 }
+const fetchStarted = async() =>{
+  const res = await fetch('/started.json')
+  return res.json()
+}
+
+const startedData = fetchStarted()
 
 function App() {
   const toolData = fetchData()
@@ -28,7 +35,8 @@ function App() {
       <Navber selectedCat={selectedCat}></Navber>
       <Hearder></Hearder>
       <Count></Count>
-      <Suspense fallback="sohan"><Main toolData ={toolData} selectedCat={selectedCat} setSelectedCart={setSelectedCart}/></Suspense>
+      <Suspense fallback="sohan"><Main toolData ={toolData} selectedCat={selectedCat} setSelectedCart={setSelectedCart} startedData={startedData}/></Suspense>
+      
       <Suspense fallback="card"><PricingCard pricingData={pricingData}></PricingCard></Suspense>
     </>
   )

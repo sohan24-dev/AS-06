@@ -1,8 +1,9 @@
 import React, { use, useState } from 'react';
 import AllCard from './AllCard';
 import Cart from '../Cart/Cart';
+import Started from '../Started/Started';
 
-const Main = ({ toolData ,setSelectedCart,selectedCat}) => {
+const Main = ({ toolData ,setSelectedCart,selectedCat,startedData}) => {
     const cardData = use(toolData)
     const [product, setProduct] = useState('product')
     
@@ -29,8 +30,10 @@ const Main = ({ toolData ,setSelectedCart,selectedCat}) => {
             {
                 product === 'product' ? <div className='container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5'>
                     {cardData.map((allCard, idx) => <AllCard key={idx} allCard={allCard} selectedCat={selectedCat} setSelectedCart={setSelectedCart}/>)}
+                   
                 </div> : <Cart selectedCat={selectedCat} setSelectedCart={setSelectedCart}></Cart>
             }
+            {product === 'product' && <Started startedData={startedData} />}
         </div>
     );
 };
