@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaCheck } from "react-icons/fa6";
-const AllCard = ({ allCard }) => {
-    const { name, img, tagType, period, price,description } = allCard
+import { toast } from 'react-toastify';
+const AllCard = ({ allCard, setSelectedCart, selectedCat }) => {
+    const { name, img, tagType, period, price, description, features } = allCard
+    const [selected, setSelected] = useState(false)
+    const handClick = () => {
+        toast.success(`Buy ${name}`)
+        setSelected(true)
+        setSelectedCart([...selectedCat, allCard])
+    }
     return (
         <div className='flex items-center'>
             <div className="card w-full bg-base-100 shadow-sm">
@@ -22,14 +29,21 @@ const AllCard = ({ allCard }) => {
                         <h4 className='text-xl font-bold'>${price}</h4>
                         <p className='text-[#627382]'>/{period}</p>
                     </div>
-                    <ul className="mt-6 flex gap-2 text-xs">
-                        <FaCheck />
-                        <li className='flex-1 text-[#627382]'>
-                            <span>High-resolution image generation</span>
-                        </li>
-                    </ul>
+
+                    {features.map((featuresList, idx) =>
+                        <ul className="flex gap-2 text-xs">
+                            <li key={idx}
+                                className='flex gap-2 text-[#627382]'>
+                                <FaCheck />
+                                <span>{featuresList}</span>
+                            </li>
+                        </ul>)}
+
+
                     <div className="mt-6">
-                        <button className="btn btn-primary btn-block">Buy Now </button>
+                        <button
+                            onClick={() => handClick()}
+                            className="btn btn-primary btn-block">{selected ? 'Buy already' : 'Buy Now'} </button>
                     </div>
                 </div>
             </div>

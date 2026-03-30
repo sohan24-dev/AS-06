@@ -1,7 +1,7 @@
 import { ShoppingCart } from 'lucide-react';
 import React from 'react';
 
-const Navber = () => {
+const Navber = ({ selectedCat }) => {
     return (
         <div className='container mx-auto'>
             <div className="navbar bg-base-100 shadow-sm">
@@ -35,8 +35,12 @@ const Navber = () => {
                 </div>
                 <div className="navbar-end">
                     <div className='flex gap-3 items-center'>
-                        <button className='btn'>
+                        <button className='btn relative'>
                             <ShoppingCart />
+
+                            <span className='absolute -top-2 -right-2 bg-red-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full'>
+                                {selectedCat.length}
+                            </span>
                         </button>
                         <button className='font-light btn'>
                             Login

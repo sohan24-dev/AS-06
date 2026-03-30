@@ -4,7 +4,7 @@ import React from 'react';
 
 const Hearder = () => {
     return (
-        <div className='container mx-auto my-10 grid md:grid-cols-2 gap-15'>
+        <div className='container mx-auto mt-9 grid md:grid-cols-2 gap-15'>
             <div className='hearder-left space-y-5 flex flex-col justify-center '>
                     <div>
                         <div className='inline-flex gap-2 items-center px-3 py-1 bg-[#b3abe4] rounded-4xl'>
@@ -12,7 +12,7 @@ const Hearder = () => {
                         <p className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>New: AI-Powered Tools Available</p>
                     </div>
                     </div>
-                <h2 className='text-5xl font-bold leading-normal'>Supercharge Your <br />Digital Workflow</h2>
+                <h2 className='text-5xl md:text-3xl lg:text-5xl font-bold leading-normal'>Supercharge Your <br />Digital Workflow</h2>
                 <p className='text-[#627382] leading-relaxed'>Access premium AI tools, design assets, templates, and productivity <br />
                     software—all in one place. Start creating faster today. <br />
                     Explore Products</p>
@@ -28,8 +28,8 @@ const Hearder = () => {
                     </button>
                 </div>
             </div>
-            <div className='hearder-right w-full h-[85%]'>
-                <img src={headerImg} alt="" className="w-full h-full object-cover" />
+            <div className='hearder-right w-full'>
+                <img src={headerImg} alt="" className="w-full h-[90%] object-cover" />
             </div>
         </div>
     );
