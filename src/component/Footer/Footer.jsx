@@ -7,13 +7,13 @@ const Footer = () => {
     return (
         <div className='bg-[#101727]'>
             <div className='container mx-auto text-white grid grid-cols-2 lg:grid-cols-5 gap-5 py-10 lg:py-15 px-6 md:px-0'>
-                <div className=''>
+                <div className='mr-5'>
                     <h2 className='text-2xl font-semibold mb-4'>DigiTools</h2>
                     <p>Premium digital tools for creators, <br />
                         professionals, and businesses. <br />
                         Work smarter with our suite of powerful tools.</p>
                 </div>
-                <div className='space-y-4 mb-6'>
+                <div className='space-y-4 mb-6 ml-4'>
                     <h4 className='text-xl font-semibold'>Product</h4>
                     <p>Features</p>
                     <p>Pricing</p>

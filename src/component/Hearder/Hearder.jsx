@@ -4,7 +4,7 @@ import React from 'react';
 
 const Hearder = () => {
     return (
-        <div className='container mx-auto mt-9 grid md:grid-cols-2 gap-15'>
+        <div className='container mx-auto mt-9 grid md:grid-cols-2 gap-15 px-7 md:px-0'>
             <div className='hearder-left space-y-5 flex flex-col justify-center '>
                     <div>
                         <div className='inline-flex gap-2 items-center px-3 py-1 bg-[#b3abe4] rounded-4xl'>
