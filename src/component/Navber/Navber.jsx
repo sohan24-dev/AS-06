@@ -35,7 +35,7 @@ const Navber = ({ selectedCat }) => {
                 </div>
                 <div className="navbar-end flex gap-3 items-center">
                     
-                        <button className='btn relative'>
+                        <button className='relative'>
                             <ShoppingCart />
 
                             <span className='absolute -top-2 -right-2 bg-red-500 text-white w-5 h-5 flex items-center justify-center rounded-full'>
