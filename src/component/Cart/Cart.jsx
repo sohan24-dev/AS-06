@@ -13,7 +13,7 @@ const Cart = ({ setSelectedCart, selectedCat }) => {
         <div className='container mx-auto shadow-xl p-6 my-4 bg-[#F2F2F2]'>
             {selectedCat.length === 0 ? <div className='h-[300px] flex items-center justify-center flex-col gap-4'>
                 <h2 className='text-2xl font-medium'>No select yet </h2>
-                <p className='text-3xl'>Go product Cart and select your Digital tools </p>
+                <p className='text-3xl text-center'>Go product Cart and select your Digital tools </p>
             </div> : <div className=' space-y-4'>
                 <h2 className='text-xl font-extrabold'>Your Cart </h2>
                 {selectedCat.map((cart, idx) => {

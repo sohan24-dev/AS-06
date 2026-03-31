@@ -11,7 +11,7 @@ const Started = ({startedData}) => {
                 <h2 className='text-4xl lg:text-6xl font-bold pb-3'>Get Started in 3 Steps</h2>
                 <p className='text-[#627382]'>Start using premium digital tools in minutes, not hours.</p>
             </div>
-            <div className='grid md:grid-cols-2 lg:grid-cols-3 my-6 gap-6 px-7 md:px-0'>
+            <div className='grid lg:grid-cols-3 my-6 gap-6 px-7 md:px-0'>
                 {StartCart.map( (StartData,idx) => <SingleStarted StartData={StartData} key={idx}></SingleStarted>)}
             </div>
         </div>
