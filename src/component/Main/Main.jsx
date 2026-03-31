@@ -1,12 +1,8 @@
 import React, { use, useState } from 'react';
 import AllCard from './AllCard';
 import Cart from '../Cart/Cart';
-import Started from '../Started/Started';
-import PricingCard from '../PricingCard/PricingCard';
-import Footer from '../Footer/Footer';
-import WorkFlow from '../WorkFlow/WorkFlow';
 
-const Main = ({ toolData, setSelectedCart, selectedCat, startedData, pricingData }) => {
+const Main = ({ toolData, setSelectedCart, selectedCat}) => {
     const cardData = use(toolData)
     const [product, setProduct] = useState('product')
 
@@ -32,14 +28,6 @@ const Main = ({ toolData, setSelectedCart, selectedCat, startedData, pricingData
 
                 </div> : <Cart selectedCat={selectedCat} setSelectedCart={setSelectedCart}></Cart>
             }
-            {product === 'product' && (
-                <>
-                    <Started startedData={startedData} />
-                    <PricingCard pricingData={pricingData} />
-                    <WorkFlow />
-                    <Footer />
-                </>
-            )}
         </div>
     );
 };

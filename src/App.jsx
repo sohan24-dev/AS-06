@@ -7,6 +7,10 @@ import Navber from './component/Navber/Navber'
 import Count from './component/Count/Count'
 import { Rings } from 'react-loader-spinner'
 import Pro from './component/Main/Pro'
+import Started from './component/Started/Started'
+import PricingCard from './component/PricingCard/PricingCard'
+import WorkFlow from './component/WorkFlow/WorkFlow'
+import Footer from './component/Footer/Footer'
 
 
 
@@ -27,9 +31,9 @@ const fetchStarted = async () => {
 
 const startedData = fetchStarted()
 const pricingData = fetchPricing()
+const toolData = fetchData()
 
 function App() {
-  const toolData = fetchData()
   const [selectedCat, setSelectedCart] = useState([])
   return (
     <>
@@ -48,6 +52,10 @@ function App() {
           wrapperClass=""
         />
       </div>}><Main toolData={toolData} selectedCat={selectedCat} setSelectedCart={setSelectedCart} startedData={startedData} pricingData={pricingData} /></Suspense>
+      <Started startedData={startedData} />
+      <PricingCard pricingData={pricingData} />
+      <WorkFlow />
+      <Footer />
 
     </>
   )
