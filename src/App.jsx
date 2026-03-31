@@ -51,7 +51,7 @@ function App() {
           wrapperStyle={{}}
           wrapperClass=""
         />
-      </div>}><Main toolData={toolData} selectedCat={selectedCat} setSelectedCart={setSelectedCart} startedData={startedData} pricingData={pricingData} /></Suspense>
+      </div>}><Main toolData={toolData} selectedCat={selectedCat} setSelectedCart={setSelectedCart} /></Suspense>
       <Started startedData={startedData} />
       <PricingCard pricingData={pricingData} />
       <WorkFlow />

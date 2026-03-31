@@ -36,8 +36,8 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <h4 className='text-xl mb-4 font-semibold'>Social Links</h4>
-                    <div className='flex gap-2'>
+                    <h4 className='text-xl mb-4 font-semibold'>Social  Links</h4>
+                    <div className='flex gap-3'>
                         <div className='bg-white rounded-full inline-block p-2 text-2xl text-black'>
                             <AiFillInstagram />
                         </div>
