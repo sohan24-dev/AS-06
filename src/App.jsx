@@ -5,6 +5,8 @@ import Hearder from './component/Hearder/Hearder'
 import Main from './component/Main/Main'
 import Navber from './component/Navber/Navber'
 import Count from './component/Count/Count'
+import { Rings } from 'react-loader-spinner'
+import Pro from './component/Main/Pro'
 
 
 
@@ -34,8 +36,19 @@ function App() {
       <Navber selectedCat={selectedCat}></Navber>
       <Hearder></Hearder>
       <Count></Count>
-      <Suspense fallback="sohan"><Main toolData={toolData} selectedCat={selectedCat} setSelectedCart={setSelectedCart} startedData={startedData} pricingData={pricingData} /></Suspense>
-      
+      <Pro></Pro>
+      <Suspense fallback={<div className="flex justify-center items-center mt-3">
+        <Rings
+          visible={true}
+          height="80"
+          width="80"
+          color="#000957"
+          ariaLabel="rings-loading"
+          wrapperStyle={{}}
+          wrapperClass=""
+        />
+      </div>}><Main toolData={toolData} selectedCat={selectedCat} setSelectedCart={setSelectedCart} startedData={startedData} pricingData={pricingData} /></Suspense>
+
     </>
   )
 }
