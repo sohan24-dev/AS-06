@@ -51,6 +51,17 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <hr className='text-white container mx-auto' />
+            <div className='container mx-auto text-[#FAFAFA] flex flex-col sm:flex-row justify-between items-center py-10'>
+                <div>
+                    <p>© 2026 Digitools. All rights reserved.</p>
+                </div>
+                <div className='flex justify-between items-center gap-7 pt-5'>
+                    <p>Privacy Policy</p>
+                    <p>Terms of Service</p>
+                    <p>Cookies</p>
+                </div>
+            </div>
         </div>
     );
 };
