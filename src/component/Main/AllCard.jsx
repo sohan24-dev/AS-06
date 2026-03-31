@@ -29,7 +29,7 @@ const AllCard = ({ allCard, setSelectedCart, selectedCat }) => {
                         </div>
                     </div>
                     <div className="flex justify-between">
-                        <h2 className="text-3xl font-bold">{name}</h2>
+                        <h2 className="text-xl md:3xl font-bold">{name}</h2>
                     </div>
                     <p className='text-[#627382]'>{description}</p>
                     <div className='flex items-center gap-2'>

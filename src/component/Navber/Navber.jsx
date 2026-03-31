@@ -42,7 +42,7 @@ const Navber = ({ selectedCat }) => {
                                 {selectedCat.length}
                             </span>
                         </button>
-                        <button className='font-light btn'>
+                        <button className='font-light btn '>
                             Login
                         </button>
                         <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-4">

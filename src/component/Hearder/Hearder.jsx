@@ -12,7 +12,7 @@ const Hearder = () => {
                         <p className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>New: AI-Powered Tools Available</p>
                     </div>
                     </div>
-                <h2 className='text-5xl md:text-3xl lg:text-5xl font-bold leading-normal'>Supercharge Your <br />Digital Workflow</h2>
+                <h2 className='text-2xl md:text-3xl lg:text-5xl font-bold leading-normal'>Supercharge Your <br />Digital Workflow</h2>
                 <p className='text-[#627382] leading-relaxed'>Access premium AI tools, design assets, templates, and productivity <br />
                     software—all in one place. Start creating faster today. <br />
                     Explore Products</p>
